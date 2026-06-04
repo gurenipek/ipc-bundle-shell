@@ -1,4 +1,4 @@
-# bshell — Bundle Shell
+# bshell — bundle shell
 
 A custom Unix shell where instead of running single commands, you define named
 process bundles — groups of commands that all run concurrently and share
@@ -7,7 +7,7 @@ redirected to/from files.
 
 Built for CENG 334 (Intro to Operating Systems) at METU.
 
-## How it works
+## how it works
 
 - Define a bundle with `pbc` / `pbs`, give it a name
 - When executed, every command in the bundle is forked and runs in parallel
@@ -16,13 +16,13 @@ Built for CENG 334 (Intro to Operating Systems) at METU.
 - First bundle can read from a file (`<`), last can write to one (`>`)
 - All children are reaped before the shell accepts new input — no zombies
 
-## Build & run
+## build & run
 
 ```bash
 make
 ./hw1
 ```
-## Example Input
+## example input
 
 ```bash
 pbc upper
