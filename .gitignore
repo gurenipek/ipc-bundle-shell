@@ -1,0 +1,16 @@
+# compiled output
+*.o
+*.out
+hw1
+
+# dependency files
+*.d
+
+# clutter
+.vscode/
+.idea/
+*.swp
+*.swo
+
+.DS_Store
+*.log
